@@ -1,11 +1,8 @@
 const Potion = require ('../lib/Potion');
+const Player = require('../lib/Player.js');
 
 jest.mock('../lib/Potion.js');
 
-console.log(new Potion());
-
-const Player = require('../lib/Player');
-const { EXPORTDECLARATION_TYPES } = require('@babel/types');
 
 test('creates a player object', () => {
     const player = new Player('Dave');

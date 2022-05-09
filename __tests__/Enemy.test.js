@@ -1,4 +1,3 @@
-const { exportAllDeclaration } = require('@babel/types');
 const Enemy = require ('../lib/Enemy');
 const Potion = require ('../lib/Potion');
 
